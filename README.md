@@ -20,17 +20,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Angluar CLI
 >Command line interface scafolding and maintaining angular applications.
 
-![Angular CLI](readme_images/install_angular_cli_globally.jpg "Angular CLI")
+![Angular CLI](readme_images/install_angular_cli_globally.JPG "Angular CLI")
 
 ## Create new application
 
-![Create new application](readme_images/1.angular_cli_create_new_application.jpg "Create new application")
+![Create new application](readme_images/1.angular_cli_create_new_application.JPG "Create new application")
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. `--o` or `--open` is optional which launches browser.
 
-![Run application](readme_images/2.launch_angular_application.jpg "Run application")
+![Run application](readme_images/2.launch_angular_application.JPG "Run application")
 
 [TOC](#toc)
 
