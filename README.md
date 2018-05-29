@@ -9,6 +9,8 @@
     - [Running unit tests](#running-unit-tests)
     - [Running end-to-end tests](#running-end-to-end-tests)
     - [Further help](#further-help)
+    - [What is Core.js](#what-is-corejs)
+    - [What is Zone.js](#what-is-zonejs)
 
 <!-- /TOC -->
 # AngularPractice
@@ -63,3 +65,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 [TOC](#angularpractice)
+
+## What is Core.js
+## What is Zone.js

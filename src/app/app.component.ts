@@ -7,6 +7,6 @@ import { environment } from "../environments/environment";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular Practice';
+  title = 'CARS';
   env = environment.environmentName;
 }
