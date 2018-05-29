@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Angluar CLI
 >Command line interface scafolding and maintaining angular applications.
 
-![Angular CLI](readme_images/install_angular_cli_globally.jpg "Angular CLI")
+![Angular CLI](readme_images/install_angular_cli_globally.JPG "Angular CLI")
 
 ## Create new application
 
