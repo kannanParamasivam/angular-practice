@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarsComponent implements OnInit {
 
-  car = 'Subaru Forester'
+  pageTitle = 'Car List'
 
   constructor() { }
 
