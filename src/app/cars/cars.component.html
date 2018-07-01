@@ -1,4 +1,4 @@
-<div class='card'>
+<div class='card offset-sm-1 col-sm-10 border-success'>
 
     <div class='card-header'>
         {{pageTitle}}
@@ -43,4 +43,37 @@
 
     </div>
 
+    <div class="card-footer">
+
+    </div>
+
 </div>
+
+<br>
+
+<div class="card offset-sm-1 col-sm-10 border-primary">
+    <div class="card-header">Event Binding</div>
+    <div class="card-body">
+        <input type="text" class="form-control offset-sm-4 col-sm-4" (input)="onCarNameUpdate($event)">
+        <p>{{carNameUpdateStatus}}</p>
+        <p>{{carNameEntered}}</p>
+    </div>
+    <div class="card-footer"></div>
+</div>
+
+<br>
+
+<div class="card offset-sm-1 col-sm-10 border-info">
+    <div class="card-header">
+        Two Way Data Binding
+    </div>
+    <div class="card-body">
+        <input type="text" class="form-control offset-sm-4 col-sm-4" [(ngModel)]="carNameModelVariable">
+        <p>Car name is {{carNameModelVariable}}</p>
+    </div>
+    <div class="card-footer"></div>
+</div>
+
+<br>
+
+<app-angular-if-else></app-angular-if-else>

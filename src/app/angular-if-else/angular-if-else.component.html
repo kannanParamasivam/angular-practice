@@ -1,0 +1,24 @@
+<div class="card offset-sm-1 col-sm-10 border-dark">
+
+  <div class="card-header">
+    ngIf with else
+  </div>
+
+  <div class="card-body">
+    <div class="row">
+      <input type="text" class="form-control offset-sm-4 col-sm-4" [(ngModel)]="carName">
+    </div>
+    <div class="d-flex justify-content-center space-around">
+      <button class="btn btn-secondary" (click)="onCreateCar()" [disabled]="carName.length === 0">Create Car</button>
+    </div>
+    <div class="row mx-auto">
+      <p *ngIf="carCreated; else noCarCreated">
+        Car was created with name {{carName}}
+      </p>
+      <ng-template #noCarCreated>
+        <p>No car was created!</p>
+      </ng-template>
+    </div>
+  </div>
+
+</div>

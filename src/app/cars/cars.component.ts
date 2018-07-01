@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarsComponent implements OnInit {
 
-  pageTitle = 'Car List'
+  pageTitle: string = 'Car List';
+  carNameUpdateStatus: string = "Car name not updated";
+  carNameEntered: string = "";
+  carNameModelVariable:string="";
 
   constructor() { }
+
+  onCarNameUpdate(event: Event) {
+    this.carNameUpdateStatus = "Car name updated";
+    this.carNameEntered = (<HTMLInputElement>event.target).value;
+  }
 
   ngOnInit() {
   }
