@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-for-builtin-directive.component.css']
 })
 export class NgForBuiltinDirectiveComponent implements OnInit {
+
   carName: string = "";
   cars: string[] = [];
 
