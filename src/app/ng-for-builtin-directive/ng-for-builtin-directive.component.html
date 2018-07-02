@@ -13,7 +13,7 @@
       <button class="btn btn-secondary" [disabled]="carName.length === 0" (click)="onCreateCar()">Create Car</button>
     </div>
     <div class="d-flex flex-column">
-      <app-car *ngFor="let car of cars"></app-car>
+      <app-car *ngFor="let car of cars; let i = index" [index]="i" ></app-car>
     </div>
   </div>
 </div>
