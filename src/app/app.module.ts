@@ -9,6 +9,8 @@ import { NgStyleInbuiltDirectiveComponent } from './ng-style-inbuilt-directive/n
 import { EmissionTestComponent } from './emission-test/emission-test.component';
 import { DueForServiceComponent } from './due-for-service/due-for-service.component';
 import { NgClassBuiltinDirectiveComponent } from './ng-class-builtin-directive/ng-class-builtin-directive.component';
+import { CarComponent } from './car/car.component';
+import { NgForBuiltinDirectiveComponent } from './ng-for-builtin-directive/ng-for-builtin-directive.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NgClassBuiltinDirectiveComponent } from './ng-class-builtin-directive/n
     NgStyleInbuiltDirectiveComponent,
     EmissionTestComponent,
     DueForServiceComponent,
-    NgClassBuiltinDirectiveComponent
+    NgClassBuiltinDirectiveComponent,
+    CarComponent,
+    NgForBuiltinDirectiveComponent
   ],
   imports: [
     BrowserModule,
