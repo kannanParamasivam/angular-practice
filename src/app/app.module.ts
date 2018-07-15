@@ -12,6 +12,7 @@ import { NgClassBuiltinDirectiveComponent } from './ng-class-builtin-directive/n
 import { CarComponent } from './car/car.component';
 import { NgForBuiltinDirectiveComponent } from './ng-for-builtin-directive/ng-for-builtin-directive.component';
 import { NgTemplateInbuiltElementComponent } from './ng-template-inbuilt-element/ng-template-inbuilt-element.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgTemplateInbuiltElementComponent } from './ng-template-inbuilt-element
     NgClassBuiltinDirectiveComponent,
     CarComponent,
     NgForBuiltinDirectiveComponent,
-    NgTemplateInbuiltElementComponent
+    NgTemplateInbuiltElementComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,

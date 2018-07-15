@@ -1,0 +1,20 @@
+<div class="card offset-sm-1 col-sm-10">
+  <div class="card-header">ng-container</div>
+  <div class="card-title text-left">
+    ng-container is container for html elements/templates. This can be used for structural directives instread of declaring div
+    for that. When having multiple sturctural directives, we can split structual directives to its own ng-container instead
+    of declaring multiple divs.
+  </div>
+  <div class="card-body">
+    <ng-container *ngIf="cars else loading">
+      <div class="card" *ngFor="let car of cars">
+        <div class="card-body">
+          {{car.brand}} - {{car.model}} - {{car.year}}
+        </div>
+      </div>
+    </ng-container>
+    <ng-template #loading>
+      Loading Cars... (from template)
+    </ng-template>
+  </div>
+</div>
