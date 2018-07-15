@@ -11,6 +11,7 @@ import { DueForServiceComponent } from './due-for-service/due-for-service.compon
 import { NgClassBuiltinDirectiveComponent } from './ng-class-builtin-directive/ng-class-builtin-directive.component';
 import { CarComponent } from './car/car.component';
 import { NgForBuiltinDirectiveComponent } from './ng-for-builtin-directive/ng-for-builtin-directive.component';
+import { NgTemplateInbuiltElementComponent } from './ng-template-inbuilt-element/ng-template-inbuilt-element.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NgForBuiltinDirectiveComponent } from './ng-for-builtin-directive/ng-fo
     DueForServiceComponent,
     NgClassBuiltinDirectiveComponent,
     CarComponent,
-    NgForBuiltinDirectiveComponent
+    NgForBuiltinDirectiveComponent,
+    NgTemplateInbuiltElementComponent
   ],
   imports: [
     BrowserModule,

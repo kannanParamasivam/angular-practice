@@ -1,0 +1,25 @@
+<div class="card offset-sm-1 col-sm-10">
+  <div class="card-header">
+    ng-template
+  </div>
+  <div class="card-title">
+    ng-template directive to contain template in it and can be used internaly by *ng-if, *ng-for and switch statements by angular.
+  </div>
+  <div class="card-body">
+
+    <div *ngIf="cars else noCars">
+      <ul class="list-group">
+        
+        <li class="list-group-item list-group-item-action" *ngFor="let car of cars; let i = index" [ngClass]="{active: i===0}"> {{car.brand}} - {{car.model}} - {{car.year}}</li>
+      </ul>
+    </div>
+
+    <ng-template #noCars>
+      <h2>Loading Cars (From Template)</h2>
+    </ng-template>
+
+  </div>
+  <div class="card-footer">
+
+  </div>
+</div>
